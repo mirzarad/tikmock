@@ -13,7 +13,9 @@ import Footer from './Footer';
 const Sidebar = () => {
   const [showSidebar, setShowSidebar] = useState(true)
 
-  const normalLink = 'flex items-center gap-3 hover:bg-primary p-3 justify-center xl:justify-start cursor-pointer font-semibold text-[#F51997] rounded'
+  const activeLink = 'flex items-center gap-3 hover:bg-primary p-3 justify-center xl:justify-start cursor-pointer font-semibold text-[#F51997] rounded';
+
+  const normalLink = 'flex items-center gap-3 hover:bg-primary p-3 justify-center xl:justify-start cursor-pointer font-semibold rounded';
 
   const userProfile = false
   
@@ -33,7 +35,7 @@ const Sidebar = () => {
                 <p className="text-2xl">
                   <AiFillHome />
                 </p>
-                <span className="text-xl hidden xl:block">
+                <span className="capitalize text-xl hidden xl:block">
                 For You
                 </span>
               </div>
