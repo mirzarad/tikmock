@@ -2,7 +2,7 @@ import React, {useState, useEffect, useRef} from 'react'
 import {Video} from '../types'
 import {NextPage} from 'next'
 
-import Image from 'next/Image'
+import Image from 'next/image'
 import Link from 'next/link'
 import {HiVolumeUp, HiVolumeOff} from 'react-icons/hi'
 import {BsFillPlayFill, BsFillPauseFill} from 'react-icons/bs'
