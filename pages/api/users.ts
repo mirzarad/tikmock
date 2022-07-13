@@ -9,7 +9,7 @@ export default async function handler(
   if(req.method === 'GET'){
     const data = await client.fetch(allUsersQuery())
 
-    if(!data) {
+    if(data) {
       res.status(200).json(data)
     } else {
       res.json([])
