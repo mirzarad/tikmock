@@ -2,5 +2,6 @@
 
 Live Demo: https://tikmock.vercel.app/
 
-![alt text](/utils/tikmock-logo.png 'TikMock Logo')
-![alt text](/utils/screenshots/tikmock-screenshot.png 'TikMock')
+![alt text](/utils/tikmock.png 'TikMock Logo')
+![alt text](/utils/screenshots/tikmock-landing-page.png 'TikMock Langing Page')
+![alt text](/utils/screenshots/tikmock-video-details-page.png 'TikMock Video Details Page')
